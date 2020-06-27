@@ -1,0 +1,31 @@
+.para{
+	background-color: green;
+	color: blue;
+	font-style: arial;
+}
+#para{
+	background-color: black;
+	color:white;
+}
+.first,.second,.third{
+	border :10px solid ;
+	width: 300px;
+}
+.parent{
+	display:flex;
+	flex-direction: row;
+}
+
+
+
+@media screen and (min-width: 425px) and (max-width:728px){
+	.first,.second,.third{
+	border :10px solid ;
+	width: 300px;
+	background-color: green;
+	border-radius: 5px;
+	
+
+}
+
+
